@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+:root {
+    --primary-color: #424874;
+    --secondary-color: #DCD6F7;
+    --primary-white: #FAFAFA;
+}
+
+
+
+
+
+
+@import "./nav";
+@import "./home.scss";
+@import "./leftbar";
+@import "./feed";
+@import "./post";
+@import "./createpost";
+@import "./rightbar";
+@import "./onlinefriend";
+@import "./friendsuggestion"

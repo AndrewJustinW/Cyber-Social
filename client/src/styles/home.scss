@@ -1,0 +1,35 @@
+.home {
+
+    .home-wrapper {
+        flex: 12;
+        display: flex;
+
+        .leftbar {
+            background-color: var(--primary-white);
+            flex: 2.5;
+            height: calc(100vh - 4.6rem);
+            top: 4.6em;
+            position: sticky;
+
+        }
+
+        .feed {
+            flex: 7;
+
+            .feed-welcome {
+                margin-top: 1em;
+                margin-left: 1em;
+            }
+        }
+
+        .rightbar {
+            flex: 2.5;
+            background-color: var(--primary-white);
+            height: calc(100vh - 4.6rem);
+            top: 4.6em;
+            position: sticky;
+        }
+    }
+}
+
+// rgb(39, 39, 58);
