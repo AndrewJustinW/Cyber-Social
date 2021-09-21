@@ -8,7 +8,7 @@ const Post = () => {
 
             <div className="post-top">
 
-                <img className="post-profile-pic" src="/assets/images/images.jpeg" alt="a" />
+                <img className="post-profile-pic" src={process.env.PUBLIC_URL + '/assets/images/images.jpeg'} alt="a" />
                 <div className="post-info">
                     <span className="post-username"> Phantom$</span>
                     <span className="post-date"> 5hs ago</span>
@@ -21,7 +21,7 @@ const Post = () => {
                 <p className="post-text">Example text because it's example text that was written as an example so that I can have text here to use as an example of when someone enters text into a post for example.</p>
 
                 <div className="post-img-container">
-                    <img src="/assets/images/spaceman.png" alt="" className="post-img" />
+                    <img src={process.env.PUBLIC_URL + '/assets/images/spaceman.png'} alt="" className="post-img" />
 
                 </div>
 

@@ -56,7 +56,7 @@ const Nav = () => {
 
                     <div className="nav-right-profile">
 
-                        <img className="nav-profile-pic" src="/assets/images/images.jpeg" alt="a" />
+                        <img className="nav-profile-pic" src={process.env.PUBLIC_URL + '/assets/images/images.jpeg'} alt="a" />
                         <span className="nav-username"> Phantom$</span>
 
                     </div>

@@ -10,7 +10,7 @@ const CreatePost = () => {
 
                 <div className="create-post-top">
 
-                    <img className="create-post-profile-pic" src="/assets/images/images.jpeg" alt="a" />
+                    <img className="create-post-profile-pic" src={process.env.PUBLIC_URL + '/assets/images/images.jpeg'} alt="a" />
                     <div className="create-post-input-container">
 
                         <input type="text" placeholder="Whats on your mind, Andrew?" className="create-post-input" />

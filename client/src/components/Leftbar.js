@@ -1,5 +1,4 @@
 import Chat from '@material-ui/icons/Chat';
-import RssFeed from '@material-ui/icons/RssFeed';
 import Bookmark from '@material-ui/icons/Bookmark';
 import Cloud from '@material-ui/icons/Cloud';
 import MenuBook from '@material-ui/icons/MenuBook';
