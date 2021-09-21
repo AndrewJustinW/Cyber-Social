@@ -4,6 +4,16 @@
     flex-direction: column;
     align-items: center;
     padding: 2em 0;
+    position: relative;
 
+    .pageup-button {
+        position: fixed;
+        bottom: 2em;
+        right: 28em;
+        background-color: rgb(202, 202, 202);
+        padding: 1em;
+        border-radius: 20%;
+        cursor: pointer;
 
+    }
 }
