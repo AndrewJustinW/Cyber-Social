@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Cyber-Social/static/css/main.16254a9e.chunk.css",
+    "main.js": "/Cyber-Social/static/js/main.a6ae5371.chunk.js",
+    "main.js.map": "/Cyber-Social/static/js/main.a6ae5371.chunk.js.map",
+    "runtime-main.js": "/Cyber-Social/static/js/runtime-main.87e102b5.js",
+    "runtime-main.js.map": "/Cyber-Social/static/js/runtime-main.87e102b5.js.map",
+    "static/js/2.dca6ea0a.chunk.js": "/Cyber-Social/static/js/2.dca6ea0a.chunk.js",
+    "static/js/2.dca6ea0a.chunk.js.map": "/Cyber-Social/static/js/2.dca6ea0a.chunk.js.map",
+    "index.html": "/Cyber-Social/index.html",
+    "static/css/main.16254a9e.chunk.css.map": "/Cyber-Social/static/css/main.16254a9e.chunk.css.map",
+    "static/js/2.dca6ea0a.chunk.js.LICENSE.txt": "/Cyber-Social/static/js/2.dca6ea0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87e102b5.js",
+    "static/js/2.dca6ea0a.chunk.js",
+    "static/css/main.16254a9e.chunk.css",
+    "static/js/main.a6ae5371.chunk.js"
+  ]
+}
