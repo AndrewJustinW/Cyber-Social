@@ -18,15 +18,15 @@ const Login = () => {
 
                     <div className="login-box">
 
-                        <input placeholder="Email" className="login-input" />
-                        <input placeholder="Password" className="login-input" />
+                        <input placeholder="Email" className="login-input" type="email" />
+                        <input placeholder="Password" className="login-input" type="password" />
 
                         <button className="login-button">Log In</button>
                         <span className="login-forgot">Forgot Password?</span>
 
-                        <button className="login-register-button">
-                            Create a New Account
-                        </button>
+                        <span className="login-page-register">
+                            New to CyberSocial? <span className="login-register-link">Sign up here.</span>
+                        </span>
 
                     </div>
 

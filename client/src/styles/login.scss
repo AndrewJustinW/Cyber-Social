@@ -82,19 +82,14 @@
                     cursor: pointer;
                 }
 
-                .login-register-button {
-                    width: 60%;
-                    align-self: center;
-                    height: 2.7em;
-                    border-radius: 10px;
-                    border: none;
-                    background-color: rgb(112, 152, 228);
-                    color: white;
-                    font-size: 1.2rem;
-                    font-weight: 500;
-                    cursor: pointer;
+                .login-page-register {
+                    font-size: 1rem;
+                    margin: 0 auto;
+                    color: var(--primary-color);
 
-
+                    .login-register-link {
+                        color: #1775ee
+                    }
                 }
             }
         }
