@@ -1,0 +1,103 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .login-wrapper {
+        width: 35%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+
+        .login-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3em;
+
+            .login-logo {
+                font-size: 3rem;
+                font-weight: 800;
+                color: var(--primary-color);
+                margin-bottom: .4em;
+            }
+
+            .login-cta {
+                font-size: 1.3rem;
+                // color: rgb(45, 109, 230)
+            }
+
+        }
+
+        .login-bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .login-box {
+                height: 20em;
+                padding: 3.5em;
+                background-color: white;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+                box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+
+                .login-input {
+                    height: 2.5em;
+                    border-radius: 10px;
+                    border: 1px solid rgba(197, 197, 197, 0.671);
+                    font-size: 18px;
+                    padding-left: 20px;
+
+                    &:focus {
+                        outline: none;
+                        border: 2px solid var(--primary-color);
+
+
+                    }
+
+                }
+
+                .login-button {
+                    height: 3em;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: var(--primary-color);
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+
+                .login-forgot {
+                    text-align: center;
+                    color: #1775ee;
+                    cursor: pointer;
+                }
+
+                .login-register-button {
+                    width: 60%;
+                    align-self: center;
+                    height: 2.7em;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: rgb(112, 152, 228);
+                    color: white;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    cursor: pointer;
+
+
+                }
+            }
+        }
+    }
+
+}
