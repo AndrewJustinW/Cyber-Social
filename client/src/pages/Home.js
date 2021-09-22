@@ -1,11 +1,13 @@
 import React from 'react'
 import Feed from '../components/Feed'
 import Leftbar from '../components/Leftbar'
+import Nav from '../components/Nav'
 import Rightbar from '../components/Rightbar'
 
 const Home = () => {
     return (
         <div className="home">
+            <Nav />
 
             <div className="home-wrapper">
 
