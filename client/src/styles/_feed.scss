@@ -14,10 +14,12 @@
         padding: 1em;
         border-radius: 20%;
         cursor: pointer;
+        color: white;
 
         &:hover {
             background-color: var(--primary-color);
             color: white;
+
         }
     }
 }
