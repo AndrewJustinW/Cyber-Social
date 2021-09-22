@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import "./styles/app.scss"
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
 
       {/* <Home /> */}
-      <Router>
+      <Router basename="/">
         <Switch>
 
           <Route exact path="/">
