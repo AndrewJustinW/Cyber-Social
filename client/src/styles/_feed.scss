@@ -3,18 +3,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2em 0;
-    position: relative;
+    padding: 3em 0;
 
     .pageup-button {
         position: fixed;
         bottom: 2em;
-        right: 28em;
+        right: 25vw;
         background-color: rgb(202, 202, 202);
         padding: 1em;
         border-radius: 20%;
         cursor: pointer;
         color: white;
+        z-index: 1;
 
         &:hover {
             background-color: var(--primary-color);
