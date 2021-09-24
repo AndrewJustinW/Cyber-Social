@@ -1,6 +1,6 @@
 # CyberSocial
 
-So far this is only the FrontEnd of the App. Have not pulled in data from API yet. 
+So far this is only the FrontEnd of the App. Have not pulled in data from API yet or setup authentication. 
 
 
 ## Page Links
