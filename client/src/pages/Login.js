@@ -8,9 +8,9 @@ const Login = () => {
                 <div className="login-top">
 
                     <h3 className="login-logo">CyberSocial</h3>
-                    <span className="login-cta">
-                        Connect with friends and the world around you on CyberSocial.
-                    </span>
+                    <div className="login-cta">
+                        <span className="login-cta-text">Login to connect with friends and the world around you on CyberSocial. </span>
+                    </div>
 
                 </div>
 
