@@ -4,6 +4,7 @@ import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom"
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
 
           <Route path='/register'>
             <Register />
+          </Route>
+
+          <Route path='/:username'>
+            <Profile />
           </Route>
 
         </Switch>

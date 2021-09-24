@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -27,4 +27,5 @@
 @import "./onlinefriend";
 @import "./friendsuggestion";
 @import "./login.scss";
-@import "register.scss";
+@import "./register.scss";
+@import "./profile.scss"
