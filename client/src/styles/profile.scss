@@ -52,10 +52,12 @@
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                border-bottom: solid 1px black;
                 color: var(--primary-color);
                 margin-bottom: 1em;
                 padding-bottom: 1.5em;
+
+                -webkit-box-shadow: 3px 15px 17px -15px #000000;
+                box-shadow: 3px 15px 17px -15px #000000;
             }
 
             .profile-main {
