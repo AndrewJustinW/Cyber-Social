@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cyber-Social/static/css/main.0e7ad520.chunk.css",
-    "main.js": "/Cyber-Social/static/js/main.69a12b4e.chunk.js",
-    "main.js.map": "/Cyber-Social/static/js/main.69a12b4e.chunk.js.map",
+    "main.css": "/Cyber-Social/static/css/main.d126da79.chunk.css",
+    "main.js": "/Cyber-Social/static/js/main.ad7bbcf8.chunk.js",
+    "main.js.map": "/Cyber-Social/static/js/main.ad7bbcf8.chunk.js.map",
     "runtime-main.js": "/Cyber-Social/static/js/runtime-main.87e102b5.js",
     "runtime-main.js.map": "/Cyber-Social/static/js/runtime-main.87e102b5.js.map",
-    "static/js/2.82955889.chunk.js": "/Cyber-Social/static/js/2.82955889.chunk.js",
-    "static/js/2.82955889.chunk.js.map": "/Cyber-Social/static/js/2.82955889.chunk.js.map",
+    "static/js/2.bcac7740.chunk.js": "/Cyber-Social/static/js/2.bcac7740.chunk.js",
+    "static/js/2.bcac7740.chunk.js.map": "/Cyber-Social/static/js/2.bcac7740.chunk.js.map",
     "index.html": "/Cyber-Social/index.html",
-    "static/css/main.0e7ad520.chunk.css.map": "/Cyber-Social/static/css/main.0e7ad520.chunk.css.map",
-    "static/js/2.82955889.chunk.js.LICENSE.txt": "/Cyber-Social/static/js/2.82955889.chunk.js.LICENSE.txt"
+    "static/css/main.d126da79.chunk.css.map": "/Cyber-Social/static/css/main.d126da79.chunk.css.map",
+    "static/js/2.bcac7740.chunk.js.LICENSE.txt": "/Cyber-Social/static/js/2.bcac7740.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.87e102b5.js",
-    "static/js/2.82955889.chunk.js",
-    "static/css/main.0e7ad520.chunk.css",
-    "static/js/main.69a12b4e.chunk.js"
+    "static/js/2.bcac7740.chunk.js",
+    "static/css/main.d126da79.chunk.css",
+    "static/js/main.ad7bbcf8.chunk.js"
   ]
 }
