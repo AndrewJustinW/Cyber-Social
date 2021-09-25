@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import HighlightOff from '@material-ui/icons/HighlightOff';
 import ThumbUp from '@material-ui/icons/ThumbUp';
+import FavoriteBorderOutlined from '@mui/icons-material/FavoriteBorderOutlined';
+import FavoriteOutlined from '@mui/icons-material/FavoriteOutlined';
 import Comments from './Comments';
+import Bookmark from '@mui/icons-material/BookmarkAddOutlined';
+import SmsOutlined from '@mui/icons-material/SmsOutlined';
 
 const Post = () => {
 
@@ -35,7 +39,7 @@ const Post = () => {
                     <div className="post-stats-wrapper">
                         <div className="post-like-counter">
 
-                            <ThumbUp fontSize="small" />
+                            <FavoriteOutlined fontSize="small" />
                             <span className='like-count'>4</span>
 
                         </div>
@@ -47,9 +51,19 @@ const Post = () => {
 
             <div className="post-options">
                 <div className="post-options-wrapper">
-                    <span className="post-option">Like</span>
-                    <span className="post-option" onClick={() => { setCommentsActive(!commentsActive) }}>Comment</span>
-                    <span className="post-option">Save Post</span>
+                    <div className="post-option">
+                        <FavoriteBorderOutlined />
+                        <span>Like</span>
+                    </div>
+                    <div className="post-option" onClick={() => { setCommentsActive(!commentsActive) }}>
+                        <SmsOutlined />
+                        <span>Comment</span>
+
+                    </div>
+                    <div className="post-option">
+                        <Bookmark />
+                        <span>Save</span>
+                    </div>
                 </div>
             </div>
 
