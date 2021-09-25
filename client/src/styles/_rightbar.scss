@@ -1,3 +1,4 @@
+// HOME RIGHT BAR
 .rightbar-wrapper {
     // border: solid 1px green;
     display: flex;
@@ -22,4 +23,156 @@
         padding: 1em;
     }
 
+}
+
+
+// PROFILE RIGHT BAR
+.profile-rightbar {
+    background-color: var(--primary-white);
+    padding: 2.5em;
+    top: 4.6em;
+
+    .profile-stats {
+        display: flex;
+        flex: 12;
+        justify-content: space-around;
+        background-color: var(--primary-color);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 1.2em 0.3em;
+        margin-bottom: 2em;
+        -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+
+        .profile-stat {
+            display: flex;
+            flex: 4;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+
+        .profile-stat-middle {
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+        }
+
+    }
+
+    .profile-about {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        width: 100%;
+
+        .about-content {
+            padding: 1.5em;
+            word-wrap: break-word;
+
+            .socials-links {
+                list-style: none;
+
+                .social-link {
+                    margin: 1em 0;
+                    padding: .3em;
+                    border: solid 1px black;
+                    border-radius: 10px;
+                    background-color: rgba(231, 231, 231, 0.685);
+                }
+            }
+        }
+
+
+    }
+
+    .profile-followings {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        width: 100%;
+
+        .following-users {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            padding-top: 1.5em;
+
+            .following-user {
+
+                width: 33%;
+                min-width: fit-content;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 1em;
+                // border: solid 1px;
+
+                .following-user-img {
+                    width: 5em;
+                    border-radius: 5px;
+                    margin-bottom: 0.5em;
+                }
+
+                .following-username {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    .profile-followers {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
+        width: 100%;
+
+        .followers-users {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            padding-top: 1.5em;
+
+            .follower-user {
+                width: 33%;
+                min-width: fit-content;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 1em;
+                // border: solid 1px;
+
+                .follower-user-img {
+                    width: 5em;
+                    border-radius: 5px;
+                    margin-bottom: 0.5em;
+                }
+
+                .follower-username {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+.profile-heading-container {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+
+    .profile-heading {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
 }
