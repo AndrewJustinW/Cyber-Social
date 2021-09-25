@@ -1,6 +1,8 @@
 # CyberSocial
 
-So far this is only the FrontEnd of the App. Have not pulled in data from API yet or setup authentication. 
+So far this is only the FrontEnd of the App. Have not pulled in data from API yet or setup authentication.\
+
+Chat and widgets features will be created after basic backend is completed.
 
 
 ## Page Links
