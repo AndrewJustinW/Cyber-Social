@@ -1,4 +1,5 @@
-import React from 'react'
+import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
+import SingleComment from './SingleComment';
 
 const Comments = () => {
     return (
@@ -13,12 +14,21 @@ const Comments = () => {
 
                         <input type="text" placeholder="Write a comment.." className="create-comment-input" />
 
+                        <div className="submit-comment-container">
+                            <KeyboardArrowRight className="submit-comment-icon" />
+                        </div>
+
                     </div>
 
                 </div>
             </div>
 
             <div className="all-comments">
+
+                <SingleComment />
+                <SingleComment />
+                <SingleComment />
+
 
             </div>
 

@@ -1,6 +1,7 @@
 .comments-container {
     display: flex;
     flex-direction: column;
+    padding: .5em;
     // border-top: 1px solid black;
     // align-items: center;
 
@@ -40,10 +41,82 @@
                 padding: .5em .8em;
 
                 .create-comment-input {
-                    width: 90%;
+                    width: 92%;
                     outline: none;
                     border: none;
                     background-color: transparent
+                }
+
+                .submit-comment-container {
+                    width: 8%;
+                    display: flex;
+                    justify-content: flex-end;
+                    color: var(--primary-color);
+
+
+                    .submit-comment-icon {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+    .all-comments {
+        width: 100%;
+        // min-width: 28em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .single-comment {
+            width: 95%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+            word-wrap: break-word;
+
+            .comment-profile-pic {
+                border: solid 1px rgba(153, 121, 121, 0.562);
+                width: 2.5em;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            .comment-wrapper {
+                display: flex;
+                max-width: 80%;
+                flex-direction: column;
+                margin-left: 1em;
+                border: solid 1px rgb(233, 233, 233);
+                border-radius: 15px;
+                padding: 0.4em 1em;
+                padding-bottom: 0.5em;
+                background-color: rgb(243, 243, 243);
+
+
+
+
+                .comment-top {
+                    color: grey;
+
+                    .comment-username {
+                        font-size: 0.8rem;
+                    }
+
+                    .comment-date {
+                        margin-left: 0.1rem;
+                        font-size: 0.7rem;
+                    }
+                }
+
+                .comment-text {
+                    font-size: 0.9rem;
+
+
                 }
             }
 

@@ -49,6 +49,10 @@
              top: 1em;
              color: white;
              cursor: pointer;
+
+             &:hover {
+                 color: lightblue;
+             }
          }
      }
 
@@ -130,6 +134,7 @@
              justify-content: space-around;
              color: rgb(128, 128, 128);
              padding-bottom: 1em;
+             padding-top: .3em;
              //  border-bottom: 1px solid rgb(180, 180, 180);
 
 

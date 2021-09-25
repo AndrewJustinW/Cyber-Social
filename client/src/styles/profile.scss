@@ -15,6 +15,24 @@
         .profile-main-container {
             flex: 9.5;
 
+            .pageup-button {
+                position: fixed;
+                bottom: 2em;
+                right: 25vw;
+                background-color: rgb(202, 202, 202);
+                padding: 1em;
+                border-radius: 20%;
+                cursor: pointer;
+                color: white;
+                z-index: 1;
+
+                &:hover {
+                    background-color: var(--primary-color);
+                    color: white;
+
+                }
+            }
+
             .profile-cover {
                 width: 99.9%;
                 height: 21em;

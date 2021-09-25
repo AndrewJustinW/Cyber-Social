@@ -2,6 +2,8 @@ import React from 'react'
 import Leftbar from '../components/Leftbar'
 import Nav from '../components/Nav'
 import Post from '../components/Post'
+import ArrowUpward from '@mui/icons-material/ArrowUpward';
+
 
 const Profile = () => {
     return (
@@ -18,13 +20,19 @@ const Profile = () => {
 
                 <div className="profile-main-container">
 
-
-
-
                     <div className="profile-main">
 
                         <div className="profile-main-feed">
+                            <div className="pageup-button" onClick={() => {
+                                window.scrollTo({
+                                    top: 0,
+                                    behavior: "smooth"
+                                });
+                            }}>
 
+                                <ArrowUpward />
+
+                            </div>
                             <div className="profile-cover">
 
                                 <div className="profile-cover-contents">
