@@ -6,6 +6,7 @@
      -webkit-box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
      box-shadow: 3px 2px 14px -3px rgba(0, 0, 0, 0.65);
 
+
      .post-top {
          //  border: solid red 1px;
          display: flex;
@@ -86,6 +87,7 @@
              color: rgb(128, 128, 128);
              display: flex;
              justify-content: center;
+             font-size: 0.85rem;
 
              .post-stats-wrapper {
                  display: flex;
@@ -105,22 +107,31 @@
                          margin-left: 0.5em;
                      }
                  }
+
+                 .post-comments {
+                     cursor: pointer;
+                 }
              }
 
 
          }
      }
 
-     .post-bottom {
-         //  border: solid 1px red;
-         padding: .5em .5em;
+     .post-options {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+
 
          .post-options-wrapper {
              //  border: green 1px solid;
+             width: 95%;
              display: flex;
              justify-content: space-around;
              color: rgb(128, 128, 128);
              padding-bottom: 1em;
+             //  border-bottom: 1px solid rgb(180, 180, 180);
+
 
              .post-option {
                  cursor: pointer

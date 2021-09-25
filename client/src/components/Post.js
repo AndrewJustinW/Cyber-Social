@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import HighlightOff from '@material-ui/icons/HighlightOff';
 import ThumbUp from '@material-ui/icons/ThumbUp';
+import Comments from './Comments';
 
 const Post = () => {
+
+    const [commentsActive, setCommentsActive] = useState(false)
+
     return (
         <div className="post">
 
@@ -35,20 +39,23 @@ const Post = () => {
                             <span className='like-count'>4</span>
 
                         </div>
-                        <span className="post-comments">0 Comments</span>
+                        <span className="post-comments" onClick={() => { setCommentsActive(!commentsActive) }}>0 Comments</span>
                     </div>
 
                 </div>
             </div>
 
-            <div className="post-bottom">
+            <div className="post-options">
                 <div className="post-options-wrapper">
                     <span className="post-option">Like</span>
-                    <span className="post-option">Comment</span>
-                    <span className="post-option">Share</span>
+                    <span className="post-option" onClick={() => { setCommentsActive(!commentsActive) }}>Comment</span>
                     <span className="post-option">Save Post</span>
                 </div>
             </div>
+
+            {commentsActive && <Comments />}
+
+
         </div>
 
     )
